@@ -1,4 +1,4 @@
-#FROM innovanon/ia-tither-7 as builder
+FROM innovanon/ia-tither-7 as builder
 
 FROM innovanon/autofdo as converter
 #COPY --from=builder   /var/cpuminer/ /var/cpuminer.data/
